@@ -541,16 +541,33 @@
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          <Component id="jLabel10" min="-2" pref="146" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jLabel11" min="-2" pref="55" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
+
+                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" max="32767" attributes="0"/>
+
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel10" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                               <Component id="inputNamaPel" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                           </Group>
+
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel11" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
@@ -656,10 +673,17 @@
                                   <Component id="outputKembali" min="-2" pref="25" max="-2" attributes="0"/>
                                   <Component id="jLabel5" alignment="1" min="-2" pref="25" max="-2" attributes="0"/>
                               </Group>
+
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="btnBayar" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="btnBayar" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
                                   <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+
                                       <Component id="btnPrint" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
                                       <Component id="btnReset" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
                                   </Group>
@@ -910,6 +934,11 @@
                     </Property>
                   </Properties>
                 </Component>
+
+                <Component class="javax.swing.JLabel" name="jLabel10">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="jLabel10"/>
+
                 <Component class="javax.swing.JTextField" name="inputNamaPel">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
@@ -938,10 +967,15 @@
                     <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                       <Dimension value="[55, 25]"/>
                     </Property>
+
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel11">
                   <Properties>
+
+                    <Property name="text" type="java.lang.String" value="jLabel11"/>
+                  </Properties>
+
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Poppins Medium" size="13" style="1"/>
                     </Property>
@@ -1000,6 +1034,7 @@
                   <Events>
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sesiIDStaffActionPerformed"/>
                   </Events>
+
                 </Component>
               </SubComponents>
             </Container>

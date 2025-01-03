@@ -244,6 +244,11 @@ public class HomePage extends javax.swing.JFrame {
         outputPPN = new javax.swing.JTextField();
         jLabel3 = new javax.swing.JLabel();
         outputTotal = new javax.swing.JTextField();
+
+        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        PanelMenu1 = new button.panel();
+
         inputNamaPel = new javax.swing.JTextField();
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
@@ -251,6 +256,7 @@ public class HomePage extends javax.swing.JFrame {
         jLabel12 = new javax.swing.JLabel();
         sesiIDStaff = new javax.swing.JTextField();
         PanelMenu1 = new custom.panel();
+
         addMenu1 = new javax.swing.JCheckBox();
         qtyMenu1 = new javax.swing.JSpinner();
         lblVarian1 = new javax.swing.JLabel();
@@ -682,13 +688,21 @@ public class HomePage extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(outputKembali, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
+
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+
                 .addGap(18, 18, 18)
+
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(btnBayar, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(btnPrint, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(btnReset, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
+
+                .addContainerGap(23, Short.MAX_VALUE))
+
                 .addContainerGap(16, Short.MAX_VALUE))
+
         );
 
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
@@ -717,6 +731,10 @@ public class HomePage extends javax.swing.JFrame {
         outputTotal.setHorizontalAlignment(javax.swing.JTextField.LEFT);
         outputTotal.setBorder(null);
         outputTotal.setPreferredSize(new java.awt.Dimension(181, 25));
+
+        jLabel10.setText("jLabel10");
+
+        jLabel11.setText("jLabel11");
 
         inputNamaPel.setFont(new java.awt.Font("Poppins Medium", 1, 13)); // NOI18N
         inputNamaPel.setHorizontalAlignment(javax.swing.JTextField.LEFT);
@@ -761,6 +779,7 @@ public class HomePage extends javax.swing.JFrame {
             }
         });
 
+
         javax.swing.GroupLayout rightPanelLayout = new javax.swing.GroupLayout(rightPanel);
         rightPanel.setLayout(rightPanelLayout);
         rightPanelLayout.setHorizontalGroup(
@@ -801,14 +820,29 @@ public class HomePage extends javax.swing.JFrame {
                                         .addComponent(sesiIDStaff, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                 .addGap(77, 77, 77)))))
                 .addContainerGap())
+            .addGroup(rightPanelLayout.createSequentialGroup()
+                .addGap(18, 18, 18)
+                .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(51, 51, 51))
         );
         rightPanelLayout.setVerticalGroup(
             rightPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(rightPanelLayout.createSequentialGroup()
+
+                .addGap(26, 26, 26)
+                .addGroup(rightPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel10)
+                    .addComponent(jLabel11))
+                .addGap(18, 18, 18)
+                .addComponent(jScrollPane1)
+
                 .addContainerGap()
                 .addGroup(rightPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(inputNamaPel, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
+
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(rightPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -2907,6 +2941,27 @@ public class HomePage extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private custom.button HomePageBtn;
     private javax.swing.JLabel LogoTop;
+    private button.custom ManagePageBtn;
+    private button.custom OrderPageBtn;
+    private button.panel PanelMenu1;
+    private button.panel PanelMenu10;
+    private button.panel PanelMenu11;
+    private button.panel PanelMenu12;
+    private button.panel PanelMenu13;
+    private button.panel PanelMenu14;
+    private button.panel PanelMenu15;
+    private button.panel PanelMenu16;
+    private button.panel PanelMenu17;
+    private button.panel PanelMenu18;
+    private button.panel PanelMenu19;
+    private button.panel PanelMenu2;
+    private button.panel PanelMenu20;
+    private button.panel PanelMenu3;
+    private button.panel PanelMenu4;
+    private button.panel PanelMenu5;
+    private button.panel PanelMenu8;
+    private button.panel PanelMenu9;
+    private button.custom ReportsPageBtn;
     private custom.button ManagePageBtn;
     private custom.button OrderPageBtn;
     private custom.panel PanelMenu1;
@@ -2957,7 +3012,9 @@ public class HomePage extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
+
     private javax.swing.JLabel jLabel12;
+
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
